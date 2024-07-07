@@ -35,10 +35,6 @@ local function get_bundles()
     -- Add all of the Jars for running tests in debug mode to the bundles list
     vim.list_extend(bundles, vim.split(vim.fn.glob(java_test_path .. "/extension/server/*.jar", true), "\n"))
 
-    for _, bundlepath in ipairs(bundles) do
-        print(bundlepath)
-    end
-
     return bundles
 end
 

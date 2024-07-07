@@ -9,3 +9,4 @@
 7. Buffer management bindings
 8. Tab management bindings
 9. Implement session managemenet solution
+10. Implement todo manager
