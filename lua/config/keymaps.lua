@@ -28,3 +28,6 @@ vim.keymap.set("n", "<leader>wh", ":split<cr>", { desc = "[W]indow Split [H]oriz
 -- Stay in indent mode
 vim.keymap.set("v", "<", "<gv", { desc = "Indent left in visual mode" })
 vim.keymap.set("v", ">", ">gv", { desc = "Indent right in visual mode" })
+
+-- diagnostic
+vim.keymap.set("n", "<leader>x", function() vim.diagnostic.open_float() end, { desc= "Open diagnostic float window" })

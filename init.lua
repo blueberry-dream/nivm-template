@@ -36,6 +36,9 @@ require("config.options")
 require("config.keymaps")
 -- Load the auto commands from the config/autocmds.lua file
 require("config.autocmds")
+require("core.opts")
+-- require("core.utils").load_mappings()
+
 -- Setup lazy, this should always be last
 -- Tell lazy that all plugin specs are found in the plugins directory
 -- Pass it the options we specified above
